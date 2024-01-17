@@ -1,13 +1,12 @@
 body{
     font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
 }
-* {
-    margin: 0;
-    padding: 0;
-  }
+* 
   ul,
   li {
     list-style: none;
@@ -155,4 +154,310 @@ body{
   }
   .banner-option .btn-banner:hover {
     background-color: #b5582a;
+  }
+
+  /* tour section */
+  main{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.popular-tour-head {
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.popular-head-description {
+  width: 100%;
+  max-width: 500px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 24px 0;
+}
+.popular-description ul li {
+  max-width: 500px;
+  width: 100%;
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.popular-description-finished {
+  max-width: 500px;
+  width: 100%;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+.popular-tour-section .banner-btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: none;
+  transition: all linear 0.3s;
+}
+.popular-tour-section .banner-btn:hover {
+  background-color: #b5582a;
+}
+.popular-tour {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container-img img {
+  width: 100%;
+}
+/* popular destination */
+.destinatiom-head {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .section-description {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+  }
+  .destination-img-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .destination-img-section1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  .destination-img-section2 {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 473px 673px;
+    gap: 24px;
+  }
+  .section-content-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.choose-description {
+  color: rgba(19, 19, 24, 0.7);
+  width: 100%;
+  max-width: 647px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-container {
+  padding: 32px;
+}
+.card-container-bk {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.card-container-bk1 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.card-container-bk2 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  justify-content: center;
+}
+.cart-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.card-description {
+  width: 100%;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-container .card-img img {
+  width: 64px;
+  height: 64px;
+}
+.chosse-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.section-container {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.section-form {
+    padding: 100px 0;
+  }
+  .form-section {
+    max-width: 474px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 0 40px;
+  }
+  .form-section form .input1 {
+    display: block;
+  }
+  .form-section form input {
+    max-width: 300px;
+    width: 100%;
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.3);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
+  .form-section .submit {
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    text-align: start;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 14px 170px;
+  }
+  .form-section form input::placeholder {
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .Newsletter {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .form-description {
+    color: #5a5a5d;
+    max-width: 350px;
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+  .form-img img {
+    width: 100%;
+    max-width: 672px;
+  }
+  .newsletter-section {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-section {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 50px;
+  }
+  .footer-section {
+    padding: 110px 0;
+  }
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer-description {
+    max-width: 779px;
+    width: 100%;
+    color: #5a5a5d;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 33px;
+  }
+  .media-section {
+    max-width: 1320px;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .line {
+    max-width: 872px;
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.1);
+    margin-top: 50px;
+  }
+  .copy-right-simble {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
   }
