@@ -461,3 +461,145 @@ body{
     font-weight: 300;
     line-height: normal;
   }
+
+  /* discount */
+.discount-part {
+  padding: 100px 0;
+}
+.discount-item-head {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.discount-description {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 28px;
+}
+.discount-img-section {
+  padding: 50px 50px 50px 400px;
+  background-image: url('../Images/Group\ 39.png');
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.discount-content {
+  max-width: 300px;
+  width: 100%;
+  padding: 50px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  margin: 0 auto;
+}
+.discount-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.discount-description-item {
+  max-width: 400px;
+  width: 100%;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.price-section {
+  color: #ff5400;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.discount-btn {
+  width: 150px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  transition: all linear 0.3s;
+}
+.discount-btn:hover {
+  background-color: #b5582a;
+}
+.discount-section {
+  padding: 50px 50px;
+  background-image: url('../Images/Group\ 40.png');
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.discount-contentet {
+  max-width: 400px;
+  width: 100%;
+  padding: 50px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+
+.place-section-head {
+    max-width: 423px;
+    width: 100%;
+    color: #131318;
+    font: size 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+  }
+  .place-description {
+    max-width: 530px;
+    width: 100%;
+    color: #5a5a5d;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+  }
+  .place-section-list ul li {
+    max-width: 518px;
+    width: 100%;
+    color: #131318;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+  }
+  .place-section {
+    display: flex;
+  }
+  .banner-video-section video {
+    width: 100%;
+    max-width: 610px;
+    border-radius: 16px;
+    margin-left: 10px;
+  }
